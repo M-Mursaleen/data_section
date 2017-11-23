@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Slab', serif;
+}
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+
+a {
+	color: #39b54a;
+	text-decoration: none;
+}
+
+/* Header */
+header {
+	padding: 0;
+}
+
+header h1 {
+	float: left;
+}
+
+header a {
+	float: right;
+	margin-top: 33px;
+}
+
+/* Slider Design Styling */
+.slide-content {
+	text-shadow: 1px 1px 2px rgba(0,0,0,.7);
+}
+
+.slide-content h2 {
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.slide-content p {
+	max-width: 50%;
+}
+
+.right-half .slide-content p {
+	float: right;
+}
+
+#nav {
+  text-align: center;
+}
+
+#nav a {
+  display: inline-block;
+  width: 32px;
+	height: 32px;
+	position: absolute;
+	z-index: 10;
+	top: calc(50% - 16px);
+	text-indent: -9999px;
+}
+
+#nav a.prev-slide {
+	background: url(../images/arrow-left.png) no-repeat top left;
+	left: 10px;
+}
+
+#nav a.next-slide {
+	background: url(../images/arrow-right.png) no-repeat top left;
+	right: 10px;
+}
+
+#nav a.disabled {
+  display: none;
+}
+
+/* Featured Column */
+section {
+	overflow: hidden;
+	margin: 50px 0;
+}
+.features-col {
+	display: inline-block;
+	width: 28.5%;
+	margin: 2%;
+	text-align: center;
+	line-height: 1.6;
+	vertical-align: top;
+}
+
+.features-col img {
+	max-width: 20%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Footer */
+footer {
+	padding: 20px;
+	text-align: center;
+	border-top: 1px solid #ccc;
+}
+
+@media screen and (max-width: 768px) {
+	.features-col {
+		width: 96%;
+	}
+}
