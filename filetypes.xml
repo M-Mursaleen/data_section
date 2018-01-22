@@ -4,7 +4,9 @@
     <extensionMap>
       <mapping pattern="style" type="CSS" />
       <mapping pattern="images" type="Images" />
+      <mapping pattern="crud" type="Native" />
       <mapping pattern="registration" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="sqlite3" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
