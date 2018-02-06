@@ -6,6 +6,7 @@
       <mapping pattern="images" type="Images" />
       <mapping pattern="crud" type="Native" />
       <mapping pattern="registration" type="PLAIN_TEXT" />
+      <mapping pattern="image" type="PLAIN_TEXT" />
       <mapping pattern="static_cdn" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="rar" type="PLAIN_TEXT" />
